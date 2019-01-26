@@ -4,7 +4,12 @@
     "description": "A Node.js cli app for cred-vault password manager",
     "author": "Vamshi Krishna Alladi <vamshikrishnaalladi.me@gmail.com>",
     "license": "MIT",
-    "keywords": [ "Credentials", "Password-Manager", "Passwords", "Password-Generator" ],
+    "keywords": [
+        "Credentials",
+        "Password-Manager",
+        "Passwords",
+        "Password-Generator"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/cred-vault/cli"
@@ -16,5 +21,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "cli-max": "2.0.0"
     }
 }

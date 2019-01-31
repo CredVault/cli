@@ -20,9 +20,16 @@
     "homepage": "https://github.com/cred-vault/cli#readme",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "babel src -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch:build": "babel src -w -d dist"
     },
     "dependencies": {
         "cli-max": "2.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "7.2.3",
+        "@babel/core": "7.2.2",
+        "@babel/preset-env": "7.3.1"
     }
 }

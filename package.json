@@ -18,7 +18,10 @@
         "url": "https://github.com/cred-vault/cli/issues"
     },
     "homepage": "https://github.com/cred-vault/cli#readme",
-    "main": "index.js",
+    "main": "dist/cli.js",
+    "bin": {
+        "cv": "dist/cli.js"
+    },
     "scripts": {
         "build": "babel src -d dist",
         "test": "echo \"Error: no test specified\" && exit 1",
